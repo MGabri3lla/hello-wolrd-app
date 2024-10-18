@@ -3,17 +3,19 @@
 1.1 Criação da pasta “hello-world”: em que foram criados os arquivos de aplicação e requisitos, além do deployment e service.
 
 Comandos utilizados:
- mkdir (para criar a pasta) 
+ mkdir (para criar a pasta);
 cd (para acessá-la)
 code . (para utilizar o VS code para escrever os códigos)
+
+
+1.2 Ações necessárias: 
+ativar a execução de scripts;
+criar um ambiente virtual e instalar a biblioteca “Flask” nesse ambiente.
+
 Set-ExecutionPolicy RemoteSigned (para ativar a execução de scripts)
 .\venv\Scripts\Activate (para criar o ambiente virtual)
 pip install flask (para instalar a biblioteca Flask)
 pip freeze > .\requirements.txt (para verificar se a biblioteca foi instalada corretamente no ambiente virtual)
-
- Ações necessárias: 
-ativar a execução de scripts;
-criar um ambiente virtual e instalar a biblioteca “Flask” nesse ambiente.
 
 2. Criação do Dockerfile e da imagem
 
